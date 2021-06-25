@@ -1,0 +1,224 @@
+#todo{
+    display: grid;
+    grid-template-columns: 15% auto 15%;
+    grid-template-rows: 300px auto auto 300px;
+    grid-column-gap: 10px;
+    grid-template-areas: "lugar encabezado  lugar"
+                         "lugar menu        lugar"
+                         "lugar articulo    lugar"
+                         "lugar footer      lugar";
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, td, th, legend, fieldset, select, input, textarea, #menuPrincipal, .novedadTitulo, .encabezado__enlace, .encabezado__titulo, .contenedor__body, .contenedor__footer, fieldset p{
+    font-family: 'Encode Sans', sans-serif;
+}
+
+h1{
+    color: rgb(2,79,161);
+    font-size:large;
+}
+
+p{
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+table {
+    border: 2px solid black;
+}
+
+td{
+    border: 1px solid rgb(2,79,161);
+    text-align: center;
+}
+
+th{
+    border: 1px solid rgb(2,79,161);
+    font-weight: bold;
+    color: rgb(2,79,161);
+    text-align: center;
+}
+
+legend{;
+    font-weight:bold;
+    color: rgb(2,79,161);
+}
+
+fieldset{
+    flood-color: rgb(2,79,161);
+    display:block;
+    margin: auto;
+    width: 100%;
+    max-width: 1170px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#areaTexto{
+    width: 100%;
+    max-width: 1160px;
+}
+
+#img__Encabezado{
+    display:block;
+    margin:auto;
+    width: 1200px; height: 300px;
+    background-color: rgb(2,79,161);
+ }
+ 
+ #tituloColumnaUno{
+     color: white;
+     margin: 0px 15px 15px 150px;
+ }
+ 
+ #tituloColumnaDos{
+    color: white;
+    margin: 0px 220px 15px 0px;
+}
+
+#menuPrincipal{
+    background-color: rgb(2,79,161);
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    border-right: 3px white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin:10px auto 20px auto;
+    width: 1200px; 
+    height: 50px;
+    padding: 10px 0px 10px 0px;
+    box-sizing: border-box;
+}
+
+#menuPrincipal a{
+    color: white;
+}
+
+#novedad{
+    display:block;
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+    padding-bottom: 40px;
+}
+
+.novedadTitulo{
+    color: rgb(2,79,161);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.encabezado__enlace{
+    color:black;
+    font-size:large;
+    font-weight:bold;
+    text-decoration: none;
+}
+
+.encabezado__enlacedos{
+    color:black;
+    font-size:medium;
+    font-weight:bold;
+    text-decoration: none;
+}
+
+.encabezado__titulo{
+    color: rgb(2,79,161);
+    font: size 60px;;
+    font-weight:bolder;
+    display: flex;
+    margin-bottom:20px;
+    display:block;
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+    padding-bottom: 40px;
+}
+ .contenedor__body{
+    background-color: rgb(2,79,161);
+    box-sizing: border-box;
+    font-weight: normal;
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.contenedor__footer{
+    margin:0px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-weight: normal;
+    text-decoration: none;
+    color:rgb(36, 36, 36);
+    font-size: 12px;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(2,79,161);
+    box-sizing: border-box;
+}
+
+.footer__contenedor{
+    background-color: rgb(2,79,161);
+    font-weight: normal;
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+    display: flex;
+    height: 13.25em;
+    font-family: 'Encode Sans', sans-serif;
+}
+
+.column1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+footer h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer .column1 a{ padding-bottom: 0.30em;}
+
+.column2{ 
+    display: flex;
+    flex-direction: column;
+   }
+
+.column2 img{ padding-bottom: 0.50em;}
+
+.column2 a{
+    color: rgb(247, 242, 242);   
+    padding-left: 1.25em;
+}
+
+.footer__column2-contacto{display: flex;}
+
+.footer__column2-contacto p{
+    margin: 0px 0px 0px 20px; 
+    color: white;
+    font-family: 'Encode Sans', sans-serif;
+}
+
+.footer__abc{
+    color:white;
+    display: block;
+    text-align: center;
+    font-family: 'Encode Sans', sans-serif;
+}
