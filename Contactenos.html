@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Escuela Secundaria N.º 2</title>
     <link rel="stylesheet" href="css/estilogrid.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -40,57 +41,48 @@
 
         <h2 class="encabezado__titulo">Comuníquese con nosotros</h2>
 
-<form  action="" method="">
-   
-    <fieldset>
-        <legend>Información personal</legend>
-       
-        <br>
-        Complete los campos con la información del estudiante sobre el que desea realizar su consulta.
-       
-        <br>
-        
-        <label for="nombreUsuario">Nombre y apellido: </label>
-        <input type="text" id="nombreUsuario" placeholder="Escriba aquí">
-        <br>
-        Número telefónico: <input type="number" placeholder="Sólo números">
-        <br>
-         <!--RADIO-->
-         <p>Sexo</p>
-         F <input type= "radio" name="sexoUsuario">
-         M <input type= "radio" name="sexoUsuario">
-         Prefiero no decirlo <input type= "radio" name="sexoUsuario">
-     
-        <p><input type="checkbox">Es estudiante regular </p>
+        <div class="container">
 
-        <p>Curso</p>
-        <select name="" id="">
-            <option value="">1º año</option>
-            <option value="">2º año</option>
-            <option value="">3º año</option>
-            <option value="">4º año</option>
-            <option value="">5º año</option>
-            <option value="">6º año</option>
-        </select>
-        
+        <form>
 
-        <br>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">Nunca compartiremos su dirección con terceros.</div>
+            </div>
 
-    </fieldset>
-    
-    <br>
-    
-    <fieldset>
-        <legend>Ingrese su comentario</legend>
-        <br>
-        <textarea name="" id="areaTexto" cols="30" rows="10"></textarea>
-        <br>
-        <input type="submit" value="Enviar">
-        <input type= "reset" value="Borrar">
-        <br>
-    </fieldset>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
 
-</form>
+            <div class="mb-3">
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Mi curso</option>
+                <option value="1">Primer año</option>
+                <option value="2">Segundo año</option>
+                <option value="3">Tercer año</option>
+                <option value="4">Cuarto año</option>
+                <option value="5">Quinto año</option>
+                <option value="6">Sexto año</option>
+            </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mi mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Quiero recibir información</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            
+          </form>
+
+        </div>
 
 </div>
 
@@ -158,6 +150,7 @@
 
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 </html>
